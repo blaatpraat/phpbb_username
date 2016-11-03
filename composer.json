@@ -1,0 +1,24 @@
+{
+    "name": "blaatpraat/username",
+    "type": "phpbb-extension",
+    "description": "Allow (some) users to change their name",
+    "version": "1.0.0-dev",
+    "time": "2016-11-03",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Steyn Van Houte",
+            "email": "steyn.vanhoute@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Change Username",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}

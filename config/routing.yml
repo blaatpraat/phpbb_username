@@ -1,0 +1,3 @@
+blaatpraat_username_controller:
+    path: /demo/{name}
+    defaults: { _controller: blaatpraat.username.controller:handle }
